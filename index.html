@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Detail Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="signin">Detail Form</h1>
+            <input id="input-fname" type="text" placeholder="First Name">
+            <input id="input-lname" type="text" placeholder="Last Name">
+            <input id="input-mail" type="email" placeholder="Email" required>
+            <input id="input-num" type="phone" placeholder="Mobile">
+            <input id="input-password" type="password" placeholder="Password"
+                required>
+            <button id="btn-id" class="btn">Submit</button>
+
+        </div>
+
+        <div class="table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Edit</th>
+                        <th>F_Name</th>
+                        <th>L_Name</th>
+                        <th>Email</th>
+                        <th>Mobile</th>
+                        <th>Password</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                 <tbody id="table-body">  <!-- to insert the local storage data. -->
+
+                </tbody>
+            </table>
+        </div>
+
+    </body>
+    <script src="script.js"></script>
+</html>
